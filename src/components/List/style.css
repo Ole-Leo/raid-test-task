@@ -1,0 +1,31 @@
+.list {
+  padding: 20px;
+  background-color: #f7f6f3;
+  list-style: none;
+}
+
+.list__link {
+  display: flex;
+  gap: 10px;
+
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.list__link:active,
+.list__link:visited {
+  color: #37352f;
+}
+
+.list__link:hover {
+  color: #9333ea;
+}
+
+.list__star {
+  color: #9333ea;
+}
+
+.list__link:hover > .list__star {
+  color: #37352f;
+}
